@@ -10,6 +10,7 @@ namespace skeeks\cms\shopCartStepsWidget;
 use skeeks\cms\base\WidgetRenderable;
 use skeeks\cms\models\CmsContentElement;
 use skeeks\cms\models\CmsTree;
+use skeeks\cms\shop\models\ShopOrder;
 use skeeks\widget\chosen\Chosen;
 use yii\helpers\ArrayHelper;
 use yii\widgets\ActiveForm;
@@ -21,6 +22,11 @@ use yii\widgets\ActiveForm;
  */
 class ShopCartStepsWidget extends WidgetRenderable
 {
+    /**
+     * @var ShopOrder
+     */
+    public $shopOrder = null;
+
     public function init()
     {
         parent::init();
