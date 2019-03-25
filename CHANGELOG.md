@@ -1,6 +1,10 @@
 CHANGELOG
 ==============
 
+1.0.2
+-----------------
+  * Update design
+  
 1.0.1
 -----------------
   * 4 steps template
